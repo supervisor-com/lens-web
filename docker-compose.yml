@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        - LENS_VERSION=3.6.7
+    image: ${IMAGE:-supervisorcom/lens-web}
+    ports:
+      - 5900:5900
+      - 8080:8080
+    volumes:
+      - ./app:/app
+      - ./root:/root
+      - ./kubeconfig:/root/.kube/config

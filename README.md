@@ -2,6 +2,8 @@
 
 [https://github.com/lensapp/lens](https://github.com/lensapp/lens) for browser sponsored by [https://www.supervisor.com](supervisor.com)
 
+Why: It's useful to have a shared Lens without having to distribute kubeconfigs among developers etc.
+
 ![](demo.gif)
 
 See live demo at [https://lens-web.supervisor.com](https://lens-web.supervisor.com)

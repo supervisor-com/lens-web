@@ -1,20 +1,22 @@
 # lens-web
 
-[https://github.com/lensapp/lens](https://github.com/lensapp/lens) for browser
+[https://github.com/lensapp/lens](https://github.com/lensapp/lens) for browser sponsored by [https://www.supervisor.com](supervisor.com)
 
-Sponsored by [https://www.supervisor.com](supervisor.com)
+![](demo.gif)
+
+See live demo at [https://lens-web.supervisor.com](https://lens-web.supervisor.com)
 
 ## run locally
 
 Simply
 
-    $ docker run -it --volume $HOME/.kube/config:/root/.kube/config supervisorcom/lens-web:latest
+    $ docker run -it --volume $HOME/.kube/config:/root/.kube/config -p 8080:8080 supervisorcom/lens-web
 
 And open http://localhost:8080
 
 ## deploy to kubernetes / heroku
 
-Somebody should make a PR for YAMLs & Helm chart.
+Somebody should make a PR with YAMLs & Helm chart etc.
 
 ## help this project
 

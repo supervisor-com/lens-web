@@ -1,6 +1,6 @@
 # lens-web
 
-[https://github.com/lensapp/lens](https://github.com/lensapp/lens) for browser sponsored by [https://www.supervisor.com](supervisor.com)
+[https://github.com/lensapp/lens](https://github.com/lensapp/lens) for browser sponsored by [https://www.supervisor.com](https://www.supervisor.com)
 
 Why: It's useful to have a shared Lens without having to distribute kubeconfigs among developers etc.
 

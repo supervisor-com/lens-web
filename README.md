@@ -6,8 +6,6 @@ Why: It's useful to have a shared Lens without having to distribute kubeconfigs 
 
 ![](demo.gif)
 
-See live demo at [https://lens-web.supervisor.com](https://lens-web.supervisor.com)
-
 ## run locally
 
 Simply
